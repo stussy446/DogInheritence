@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dog : MonoBehaviour
 {
     protected string bark = "Bark Bark!";
-    private void Start()
+    public virtual void Start()
     {
         Bark();
     }
