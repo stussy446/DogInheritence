@@ -286,8 +286,9 @@ GameObject:
   - component: {fileID: 805194657}
   - component: {fileID: 805194659}
   - component: {fileID: 805194658}
+  - component: {fileID: 805194660}
   m_Layer: 5
-  m_Name: Parent Dog
+  m_Name: Dog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -351,6 +352,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 805194656}
   m_CullTransparentMesh: 1
+--- !u!114 &805194660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805194656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb0cf091fff2114c99abb86e1770b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1082070873
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +554,7 @@ GameObject:
   - component: {fileID: 1934153509}
   - component: {fileID: 1934153511}
   - component: {fileID: 1934153510}
+  - component: {fileID: 1934153512}
   m_Layer: 5
   m_Name: Wizard Dog
   m_TagString: Untagged
@@ -606,3 +620,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1934153508}
   m_CullTransparentMesh: 1
+--- !u!114 &1934153512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934153508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 278d1f2c1be7f94499246ecd2a2d1110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
